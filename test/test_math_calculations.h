@@ -6,11 +6,12 @@
 class TestMathCalculations : public QObject
 {
     Q_OBJECT
-public:
-    explicit TestMathCalculations(QObject *parent = nullptr);
 
-signals:
-
+private Q_SLOTS:
+    void TestSum();
+    void TestMultiply();
+    void TestDifference();
+    void TestDivide();
 };
 
 #endif // TESTMATHCALCULATIONS_H
