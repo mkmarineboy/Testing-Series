@@ -1,4 +1,4 @@
-project(Test_Calculations LANGUAGES CXX)
+project(Test_Target LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOUIC ON)
