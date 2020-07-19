@@ -10,8 +10,6 @@ class TestMathCalculations : public QObject
 private Q_SLOTS:
     void TestSum();
     void TestMultiply();
-    void TestDifference();
-    void TestDivide();
 };
 
 #endif // TESTMATHCALCULATIONS_H

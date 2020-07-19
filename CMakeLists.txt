@@ -10,6 +10,9 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+add_compile_options(-fprofile-arcs -ftest-coverage)
+link_libraries("-fprofile-generate")
+
 add_subdirectory(src)
 
 add_subdirectory(test)
